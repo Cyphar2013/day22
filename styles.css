@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+ 
+.container {
+    max-width: 320px;
+    min-height: 100hv;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.main {
+    width: 320px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 25px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo span {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.border-b a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.border-b a:hover {
+    border-bottom: 1px solid white;
+}
+
+.data {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+}
+
+.data span {
+    border: 0;
+}
+
+.data span:hover {
+    border-bottom: 1px solid white;
+    transition: ease all .50s;
+}
+
+.btn1 {
+    background-color: aquamarine;
+    padding: 10px 15px;
+    border: 0;
+    font-weight: bold;
+    align-items: center;
+    margin: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    position: relative;
+}
+
+ .flex {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.flex h3,
+p {
+    color: rgb(1, 1, 50);
+}
+
+.photo img {
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.test {
+    text-align: center;
+    color: white;
+}
+
+.logos h1 {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.icon {
+    color: rgb(1, 1, 50);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.bg {
+    background: linear-gradient(90deg, rgba(0, 0, 128, 0.905), rgba(0, 0, 128, 0.922)), url('assets/depositphotos_528260108-stock-illustration-polka-seamless-pattern-design-vector.jpg');
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.btn2 {
+    background-color: aquamarine;
+    padding: 10px 10px;
+    border: 0;
+    font-weight: bold;
+    align-items: center;
+}
+
+.foto {
+    background-color: rgb(1, 1, 50);
+    padding: 20px;
+}
+
+.foto p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 992px;
+        min-height: 100hv;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    .main {
+        width: 992px;
+    }
+    .text {
+        font-family: 'Roboto', sans-serif;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding: 50px 60px;
+    }
+    .logo {
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo span {
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .logos {
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(1, 1, 50);
+        text-align: center;
+    }
+    .data {
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+        font-family: 'Playfair Display', serif;
+    }
+    .btn1 {
+        background-color: aquamarine;
+        padding: 10px 10px;
+        border: 0;
+        font-weight: bold;
+        align-items: center;
+        margin: 20px;
+    }
+    .image img {
+        width: 200px;
+        height: 400px;
+        object-fit: contain;
+        position: relative;
+        margin-bottom: -200px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        transform: skew(-50deg, -10deg);
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex {
+        width: 250px;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .flex h1 {
+        border: 1px solid navy;
+        padding: 0px 10px;
+        margin: 10px 0;
+        border-radius: 50%;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        color: navy;
+    }
+
+    .flex h3,
+    p {
+        color: rgb(1, 1, 50);
+    }
+    .actions {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .photo img {
+        width: 300px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .test {
+        text-align: center;
+        color: white;
+    }
+
+    .test p {
+        width: 500px;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    .photo {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(1, 1, 50);
+        padding: 40px;
+        margin: 20px;
+        align-items: center;
+    }
+    .logo h1 {
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .icon {
+        color: rgb(1, 1, 50);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    .bg {
+        background: linear-gradient(90deg, rgba(0, 0, 128, 0.905), rgba(0, 0, 128, 0.922)), url('assets/depositphotos_528260108-stock-illustration-polka-seamless-pattern-design-vector.jpg');
+        position: relative;
+        margin-bottom: 200px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    .btn2 {
+        background-color: aquamarine;
+        padding: 10px 10px;
+        border: 0;
+        font-weight: bold;
+        align-items: center;
+    }
+};
